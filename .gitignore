@@ -1,0 +1,39 @@
+# Data files
+*.pgn
+data/*.pgn
+data/raw/
+*.zip
+*.csv
+
+# Model files
+models/*.pt
+models/*.pth
+*.ckpt
+
+# Python environment
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.Python
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
